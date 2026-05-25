@@ -1,0 +1,19 @@
+# Data files
+*.csv
+*.zip
+*.txt
+*.json
+!models/fusion_model.json
+
+# Model files (uncomment if you want to push models to github)
+# models/*.h5
+# models/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
