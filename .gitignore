@@ -3,11 +3,18 @@
 *.zip
 *.txt
 *.json
-!models/fusion_model.json
+!models/fusion_model_ft.json
+!models/eval_results.json
+!models/*.pkl
+!models/*.h5
 
-# Model files (uncomment if you want to push models to github)
-# models/*.h5
-# models/*.pkl
+# Strictly ignore huge folders
+datasets/raw_backups/
+datasets/public_datasets/**/*.zip
+datasets/public_datasets/**/*.csv
+
+# Allow safe fine-tuning dataset
+!real-data/synthetic-sessions.csv
 
 # Python
 __pycache__/

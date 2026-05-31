@@ -1,0 +1,30 @@
+{
+  "weights": {
+    "scroll": 0.15189368917223942,
+    "signature": 0.16893945547546033,
+    "keystroke": 0.169669296369307,
+    "copy_paste": 0.16963910470518948,
+    "cognitive": 0.1698861335135342,
+    "image": 0.1699723207642695
+  },
+  "sub_models": {
+    "scroll": {
+      "accuracy": 0.8844221105527639
+    },
+    "signature": {
+      "accuracy": 0.9836734533309937
+    },
+    "keystroke": {
+      "accuracy": 0.9879230533454594
+    },
+    "copy_paste": {
+      "accuracy": 0.987747258186059
+    },
+    "cognitive": {
+      "accuracy": 0.9891856177468427
+    },
+    "image": {
+      "accuracy": 0.9896874549898081
+    }
+  }
+}
